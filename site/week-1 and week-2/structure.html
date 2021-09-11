@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Online Course</title>
+        <style>
+            h2{
+                color:blue;
+                font-size: 20px;
+                width: 1000px;
+            }
+            h1{
+                text-align: center;
+                font-size: 36px;
+                color: red;
+            }
+            
+            #name{
+                color:blueviolet;
+            }
+            div .clue{
+                color: chartreuse;
+
+            }
+            .clue.red{
+                color:red;
+            }
+            section>p{
+                background-color: coral;
+            }
+            div li{
+                background-color: aquamarine;
+            }
+            div li{
+                list-style: none;
+            }
+            a:link, a:visited {
+                text-decoration: none;
+                background-color: greenyellow;
+                border: 1px solid blue;
+                color:black;
+                display: block;
+                width: 200px;
+                text-align: center;
+                margin-bottom: 1px;
+
+            }
+            a:hover,a:active{
+                background-color: pink;
+                color:purple;
+            }
+            div a:nth-child(2){
+                font-size: 24px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>Header-Some header information goes here. Eg-company logo
+            <nav>nav-Usually contains links to differnt paths</nav>
+        </header>
+        
+        <h1>Main heading of the page</h1>
+        
+        <Section id="section1"><h2>Section 1</h2>Section-Defines section of a document
+            
+            <article><h3>Article 1</h3>Article-specifies independent,self contained contents</article>
+
+        </Section>
+        <div>Div-Division</div>
+        <span>Span-Inline containers</span>
+        <div>div-Block<span>Span-Inline</span></div>
+        <aside>Aside-Contains some information about main content</aside>
+        <div>Unordered list
+        <ul>
+            <li class="clue">Milk</li>
+            <li>Cookies
+            <ul>
+                <li>Chocolate</li>
+                <li class="clue">Vanilla</li>
+            </ul>
+            </li>
+            <li>Cake</li>
+        </ul>
+        </div>
+        <div id="name">Ordered list
+            <ol>
+                <li>Buy a Chocolate
+                <ol>
+                    <li>Take the cover out</li>
+                    <li>Place it in a plate</li>
+                </ol>
+                </li>
+                <li>Serve</li>
+            </ol>
+        </div>
+        <p class="clue red">Lesser than symbol-&lt; greater than-&nbsp;&gt; ampersand-&nbsp;&amp; Copy right Symbol-&nbsp;&copy; </p>
+        <a href="index.html" title="same dir link" >Linking to a file in same dir</a>
+        <div>
+            <a href="http://www.google.com" target="_blank" title="google">google</a>
+            <a href="http://www.gmail.com" target="_blank" title="gmail">gmail</a>
+        </div>
+        
+        <section id="section2"><h3>Para</h3>
+        <p><img src="045-os-2a.png" width="400" height="235" alt="Picture">
+            &quot;paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs. This is because paragraphs show a reader where the subdivisions of an essay begin and end, and thus help the reader see the organization of the essay and grasp its main points.
+            Paragraphs can contain many different kinds of information. A paragraph could contain a series of brief examples or a single long illustration of a general point. It might describe a place, character, or process; narrate a series of events; compare or contrast two or more things; classify items into categories; or describe causes and effects. Regardless of the kind of information they contain, all paragraphs share certain characteristics. One of the most important of these is a topic sentence.&quot;
+        </p>
+        <!--Comments-->
+        </section>
+        <a href="#section1">Section 1</a>
+        <footer>footer</footer>
+    </body>
+</html>

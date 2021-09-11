@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+h1{
+    text-align: center;
+    font-size: 175%;
+}
+.item{
+    position: relative;
+    margin: 10px;
+    top: 0px;
+    padding: 10px;
+}
+section > h2{
+    position: absolute;
+    background-color: burlywood;
+    width: 50%;
+    top: 0px;
+    right:0px;
+}
+section>p{
+    margin-top: 50px;
+}
+.row{
+    width:100%;
+    padding: 5px;
+    margin-top: 100px;
+}
+#s1{
+    background-color: lightblue;
+}
+#s2{
+    background-color: lightpink;
+}
+#s3{
+    background-color: lightgray;
+}
+@media(min-width:1200px){
+    .col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12{
+        float: left;
+    }
+    .col-lg-1{
+        width: 8.33%;
+    }
+    .col-lg-2{
+        width: 16.66%;
+    }
+    .col-lg-3{
+        width: 25%;
+    }
+    .col-lg-4{
+        width: 33%;
+    }
+    .col-lg-5{
+        width: 41.66%;
+    }
+    .col-lg-6{
+        width: 50%;
+    }
+    .col-lg-7{
+        width: 58.33%;
+    }
+    .col-lg-8{
+        width: 66.66%;
+    }
+    .col-lg-9{
+        width: 74.99%;
+    }
+    .col-lg-10{
+        width: 83.33%;
+    }
+    .col-lg-11{
+        width: 91.66%;
+    }
+    .col-lg-12{
+        width: 100%;
+    }
+}
+@media(min-width:950px) and (max-width:1199px){
+    .col-mg-1,.col-mg-2,.col-mg-3,.col-mg-4,.col-mg-5,.col-mg-6,.col-mg-7,.col-mg-8,.col-mg-9,.col-mg-10,.col-mg-11,.col-mg-12{
+        float: left;
+    }
+    .col-mg-1{
+        width: 8.33%;
+    }
+    .col-mg-2{
+        width: 16.66%;
+    }
+    .col-mg-3{
+        width: 25%;
+    }
+    .col-mg-4{
+        width: 33%;
+    }
+    .col-mg-5{
+        width: 41.66%;
+    }
+    .col-mg-6{
+        width: 50%;
+    }
+    .col-mg-7{
+        width: 58.33%;
+    }
+    .col-mg-8{
+        width: 66.66%;
+    }
+    .col-mg-9{
+        width: 74.99%;
+    }
+    .col-mg-10{
+        width: 83.33%;
+    }
+    .col-mg-11{
+        width: 91.66%;
+    }
+    .col-mg-12{
+        width: 100%;
+    }
+}
